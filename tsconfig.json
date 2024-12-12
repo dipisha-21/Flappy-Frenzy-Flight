@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "es5",                          
+    "module": "none",                         
+    "lib": ["es5", "es6", "dom"],             
+    "allowJs": false,                         
+    "checkJs": false,                         
+    "declaration": false,                     
+    "declarationMap": false,                  
+    "sourceMap": true,                        
+    "outDir": "./js/",                        
+    "removeComments": true,                   
+    "downlevelIteration": true,               
+
+    /* Strict Type-Checking Options */
+    "strict": true,                           
+    "noImplicitAny": true,                    
+    "strictNullChecks": true,                 
+    "strictFunctionTypes": true,              
+    "strictBindCallApply": true,              
+    "strictPropertyInitialization": true,     
+    "noImplicitThis": true,                   
+    "alwaysStrict": true,                     
+
+    /* Additional Checks */
+    "noUnusedLocals": true,                   
+    "noUnusedParameters": true,               
+    "noImplicitReturns": true,                
+    "noFallthroughCasesInSwitch": true        
+  },
+  "include": [
+    "ts/game.ts",
+    "ts/howler.d.ts"
+  ]
+}
